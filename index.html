@@ -8,11 +8,16 @@
     <meta name="author" content="Hoang Anh Nguyen" />
     <link rel="stylesheet" href="style1.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
 </head>
 
 <body>
 
     <style>
+        body {
+            background-image: url("1.jpeg");
+        }
+        
         h1.center {
             text-align: center;
             border-left: 6px solid red;
@@ -76,18 +81,25 @@
         </li>
     </ol>
 
-    <img width="500" height="300" src="IMG_4639.JPG" title="Hoanh and HK" alt="Anh loi">
+    <b><span style="color :rgb(231, 46, 21)" ><img id="anh" width="250" height="200" src="" alt="Warning ! Cơm Tró Alert "></p></span></b>
+    <button type="button" onclick="MyLove()">Click here to see Hoanh and his girl friend</button>
+    <script>
+        function MyLove() {
+            var images = "IMG_4639.JPG";
+            var anh = document.getElementById("anh");
+            anh.src = images;
+        }
+    </script>
     </p>
-    <i><quote> Quote: It's time to update myself ^^</i></p>
-    <p><cite> Hoang Anh Nguyen</cite></p>
+    <i><quote><b><span style="color :brown" > Quote: It's time to update myself ^^</span> </b></i></p>
+    <p>by Hoang Anh Nguyen</p>
     </quote>
-
-    <p>Buoc qua mua co don :v</p>
+    <h4>Buoc qua mua co don :</h4>
     </p><audio controls autoplay>
         <source src="bqmcd.mp3" type="audio/mp3"> 
         </audio>
-
-
+    <h4>Lemon Tree :</h4>
+    <p><iframe controls autoplay width="560" height="315" src="https://www.youtube.com/embed/bCDIt50hRDs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
     <form>
         Enter your name:<br>
         <input type="text" name="txtHoDem">
@@ -95,6 +107,7 @@
         <br>
         <input type="password" name="txtTen">
     </form>
+
 
 </body>
 
